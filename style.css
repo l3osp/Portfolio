@@ -12,7 +12,7 @@ nav{ /* Personalização da tag <nav> */
 }
 
 section{ /* Personalização da tag <section> */
-    margin-top: 90px;
+    margin-top: 85px;
     
 }
 
@@ -90,6 +90,10 @@ button:hover{ /* Cor do button muda ao passar o mouse */
     width: 300px;
 }
 
+textarea{
+    width: 310px;
+}
+
 #contato{ /* Personalização do id = "contato" */
     margin-top: 200px;
 }
@@ -131,16 +135,16 @@ a { /* Personalização da tag <a> */
 }
 .tamanho{ /* Personalização do tamanho da caixa de texto da class = "tamanho" */
     padding: 2px;
-    width: auto;
+    width: 170px;
+}
+
+textarea{
+    width: 170px;
 }
 
 table{ /* Personalização da tag <table> */
     text-align: left;
     font-size: 22px;
-}
-
-textarea{
-    width: 171px;
 }
 
 #contato{ /* Personalização do id = "contato" */
