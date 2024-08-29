@@ -1,11 +1,4 @@
-nav{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-body{
+body{ /* Personalização da tag <body> */
     background: radial-gradient(circle, rgb(59, 25, 25), rgb(0, 0, 0));
     text-align: center;
     color: white;
@@ -13,25 +6,36 @@ body{
     font-weight: bold;
 }
 
-h1{
+nav{ /* Personalização da tag <nav> */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section{ /* Personalização da tag <section> */
+    margin-top: 100px;
+}
+
+h1{ /* Personalização da tag <h1> */
     font-size: 70px;
     font-style: italic;  
 }
 
-p{
+p{ /* Personalização da tag <p> */
     font-size: 30px;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-#eu{
+#eu{ /* Personalização do id = "eu" */
     width: 250px;;
     margin: auto;
     display: block;
     border: solid white
 }
 
-#github{
+#github{ /* Personalização do id = "github" */
     width: 500px;;
     margin: auto;
     display: block;
@@ -41,36 +45,32 @@ p{
     cursor: pointer;
 }
 
-.menu {
+ul { /* Personalização da tag <ul> */
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.menu li {
+li { /* Personalização da tag <li> */
     margin: auto;
 }
 
-.menu a {
-    color: white; /* Cor do texto dos links */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-size: 30px; /* Tamanho da fonte dos links */
-    font-weight: bold; /* Negrito */
+a { /* Personalização da tag <a> */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-style: bold;
 }
 
-.menu a:hover {
-    color: #00ff80; /* Cor do texto ao passar o mouse */
+a:hover { /* Cor do texto muda ao passar o mouse */
+    color: #00ff80; 
 }
 
-section{
-    margin-top: 100px;
-}
-
-.titulo{
+.titulo{ /* Personalização da class = "titulo" */
     text-decoration: underline;
 }
 
-table{
+table{ /* Personalização da tag <table> */
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
@@ -78,17 +78,17 @@ table{
     font-size: 30px;
 }
 
-button{
+button{ /* Personalização da tag <button> */
     font-size: large;
 }
 
 
-button:hover{
+button:hover{ /* Cor do button muda ao passar o mouse */
     background-color: #00ff80;
     cursor: pointer;
 }
 
-.tamanho{
+.tamanho{ /* Personalização do tamanho da caixa de texto da class = "tamanho" */
     padding: 6px;
     width: 300px;
 }
